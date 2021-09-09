@@ -1,0 +1,31 @@
+
+Employee Id - 1012796     Employee Name- Akshay Adhikrao Patil
+
+
+Questions        Answer(A/B/C/D)
+
+  1)      --       A
+  2)      --       B
+  3)      --       A-True
+  4)      --       B
+  5)      --       B
+  6)      --       C
+  7)      --       B
+  8)      --       B
+  9)      --       B
+ 10)      --       A
+ 11)      --       A
+ 12)      --       A
+ 13)      --       B,C,E,F
+ 14)      --       B
+ 15)      --       B,C,E
+ 16)      --       A,B,D
+ 17)      --       A
+ 18)      --       D
+ 19)      --       No Question
+ 20)      --       B
+ 21)      --       B
+ 22)      --       A
+ 23)      --       A-True
+ 24)      --       C
+ 25)      --       C
