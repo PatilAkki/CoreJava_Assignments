@@ -1,0 +1,16 @@
+Student Entity  : Attributes of Student are student_id, student_college_id, student_name, student_mobile,
+                  student_email, student_username, student_password, student_address
+
+Fees Entity     : Attributes of Fees are fee_id, fee_course_id, fee_amount, fee_total, fee_payment, fee_type,
+                  fee_description
+
+Logins Entity   : Attributes of Logins are login_id, login_user_id, login_role_id, login_username, login_password,
+                  login_lastlogin
+
+Profiles Entity : Attributes of Profiles are profile_id, profile_name, profile_type, profile_description
+
+Cources Entity  : Attributes of Cources are course_id, course_student_id, course_registration, course_name,
+                  course_type, course_year, course_description
+
+Exams Entity    : Attributes of Exams are exam_id, exam_student_id, exam_roll_number, exam_date exam_name, 
+                  exam_type, exam_description
