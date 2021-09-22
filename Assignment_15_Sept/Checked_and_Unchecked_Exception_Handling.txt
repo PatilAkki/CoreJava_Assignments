@@ -1,0 +1,25 @@
+-----Identify 10 checked exception and 10 unchecked exception handling classes in JSE 8.0------
+
+   *CHECKED EXCEPTIONS:-
+	-IOException
+	-SQLException
+	-ClassNotFoundException
+	-InstantiationException
+	-NoSuchMethodException
+	-IllegalAccessException	
+	-InterruptedException
+	-CloneNotSupportedException	
+	-NoSuchFieldException
+	-Exception
+
+   *UNCHECKED EXCEPTIONS:-
+	-NumberFormatException
+	-NullPointerException
+	-ArithmeticException
+	-IndexOutOFBoundException	
+	-ArrayIndexOutOfBoundException
+	-StringIndexOutOfBoundException	
+	-ClassCastException
+	-IllegalStateException	
+	-UnSupportedOperationException
+	-ArrayStoreException
