@@ -1,3 +1,0 @@
-Create an menu drive console-based application to register,view,update and delete student details.
-
-Use static arrays for storage of student objects.
