@@ -1,6 +1,7 @@
 package Assignment_20_Oct;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -8,6 +9,10 @@ import java.util.regex.Pattern;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.mockito.stubbing.Answer;
 
 import Assignment_20_October.MobileCheck;
 import Assignment_20_October.NumberCheck;
@@ -40,7 +45,7 @@ class TestNumberCheck {
 	@Test
 	void testMobileNumberCheck_Positive() 
 	{
-		String contactNumber="9785039450";
+		String contactNumber="8888633929";
 		when(checkMobile.checkMobileNumber(contactNumber)).then(answer);
 		boolean actual = numberCheck.check(contactNumber);
 		assertTrue(actual);
@@ -51,7 +56,7 @@ class TestNumberCheck {
 	@Test
 	void testMobileNumberCheck_Negative1() 
 	{
-		String contactNumber="97850394";
+		String contactNumber="8888633929";
 		when(checkMobile.checkMobileNumber(contactNumber)).then(answer);
 		boolean actual = numberCheck.check(contactNumber);
 		assertTrue(!actual);
@@ -61,7 +66,7 @@ class TestNumberCheck {
 	@Test
 	void testMobileNumberCheck_Negative2() 
 	{
-		String contactNumber="0178503942";
+		String contactNumber="2337476542";
 		when(checkMobile.checkMobileNumber(contactNumber)).then(answer);
 		boolean actual = numberCheck.check(contactNumber);
 		assertTrue(!actual);
@@ -72,7 +77,7 @@ class TestNumberCheck {
 	void testMobileNumberCheck_Exception() 
 	{
 		try {
-			String contactNumber="aq97850394";
+			String contactNumber="pk88886339";
 			when(checkMobile.checkMobileNumber(contactNumber))
 			.thenThrow(new Exception("Invalid input : Special Character not allowed"));
 			numberCheck.check(contactNumber);
